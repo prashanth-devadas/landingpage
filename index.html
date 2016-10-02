@@ -17,70 +17,7 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
 
-  <style type="text/css">
-
-    body {
-      font-family: "Trebuchet MS", Helvetica, sans-serif;
-    }
-
-    .box {
-      border:1px solid grey;  
-      background-color:#d3d3d3; 
-  
-      } 
-
-    .large {
-
-    }
-
-    
-    .whitespace {
-      background-color: white;
-    }
-
-    h1 {
-      font-size: 300%;
-
-    }
-
-
-    #div1 {
-      background-color: lightblue;
-    }
-
-
-    #div2 {
-     background-color: lightgreen;
-    }
-
-
-    #div3 {
-      background-color: lightblue;
-    }
-
-    .collapse {
-      float: right;
-    }
-
-
-
-    .contentDiv {
-      height:400px;
-      margin-top: 90px;
-      border-radius: 8px;
-    }
-
-    .icons {
-      padding-top: 110px;
-      text-align: center;
-    }
-
-    .large {
-      font-size: 1200%;
-    }
-
-    
-  </style>
+  <link type="text/css" href="css/main.css" rel="stylesheet">
 
 
   </head>
@@ -180,21 +117,7 @@
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
 
-    <script type="text/javascript">
-      var text1 ="<dev>";
-
-      $.each(text1.split(''), function(i, letter){
-
-            //we add 100*i ms delay to each letter 
-            setTimeout(function(){
-
-                //we add the letter to the container
-                $('#deva').html($('#deva').html() + letter);
-            
-            }, 400*i);
-        });
-
-    </script>
+    <script type="text/javascript" src="js/main.js"></script>
 
 
   </body>

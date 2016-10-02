@@ -1,0 +1,59 @@
+ body {
+      font-family: "Trebuchet MS", Helvetica, sans-serif;
+    }
+
+    .box {
+      border:1px solid grey;  
+      background-color:#d3d3d3; 
+  
+      } 
+
+    .large {
+
+    }
+
+    
+    .whitespace {
+      background-color: white;
+    }
+
+    h1 {
+      font-size: 300%;
+
+    }
+
+
+    #div1 {
+      background-color: lightblue;
+    }
+
+
+    #div2 {
+     background-color: lightgreen;
+    }
+
+
+    #div3 {
+      background-color: lightblue;
+    }
+
+    .collapse {
+      float: right;
+    }
+
+
+
+    .contentDiv {
+      height:400px;
+      margin-top: 90px;
+      border-radius: 8px;
+    }
+
+    .icons {
+      padding-top: 110px;
+      text-align: center;
+    }
+
+    .large {
+      font-size: 1200%;
+    }
