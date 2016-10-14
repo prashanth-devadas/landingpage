@@ -8,10 +8,6 @@
   
       } 
 
-    .large {
-
-    }
-
     
     .whitespace {
       background-color: white;
@@ -20,6 +16,15 @@
     h1 {
       font-size: 300%;
 
+    }
+
+    p {
+      padding: 10px;
+      font-size: 1.5em;
+    }
+
+    .centered {
+      text-align: center;
     }
 
 
@@ -35,6 +40,10 @@
 
     #div3 {
       background-color: lightblue;
+    }
+
+    .collapse {
+      float: right;
     }
 
 
